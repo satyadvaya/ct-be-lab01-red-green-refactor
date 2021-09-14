@@ -1,6 +1,5 @@
 const copyAndPush = (array, newElement) => {
-    array.push(newElement);
-    return array;
+    return [...array, newElement];
 };
 
 export default copyAndPush;
